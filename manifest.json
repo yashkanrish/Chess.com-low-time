@@ -1,0 +1,35 @@
+{
+	"name":"Chrome Extension MV3",
+	"description":"Building a Chrome Extension MV3",
+	"version":"0.1.0",
+	"manifest_version":3,
+	"icons":{
+		"16":"./images/bus.jpg",
+		"32":"./images/bus.jpg",
+		"64":"./images/bus.jpg",
+		"128":"./images/bus.jpg"
+	},
+	"background":{
+		"service_worker":"./background.js"
+	},
+	"action":{
+		"default_popup":"./popup.html",
+		"default_icons":{
+			"16":"./images/bus.jpg",
+			"32":"./images/bus.jpg",
+			"64":"./images/bus.jpg",
+			"128":"./images/bus.jpg"
+		}
+	},
+	"options_page":"./options.html",
+	"permissions":[
+		"activeTab",
+		"tabs",
+		"storage",
+		"scripting"
+	],
+	"host_permissions":[
+		"https://www.chess.com/*"
+		
+	]
+}
