@@ -1,6 +1,6 @@
 {
-	"name":"Chrome Extension MV3",
-	"description":"Building a Chrome Extension MV3",
+	"name":"Chess Timer Help",
+	"description":"Provides custom alerts instead of the standard 20 seconds alert",
 	"version":"0.1.0",
 	"manifest_version":3,
 	"icons":{
