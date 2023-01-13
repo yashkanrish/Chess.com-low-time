@@ -11,7 +11,7 @@ async function testWait() {
 			nextBeep--;
 		}
 }
-for(let i=0;i<1000;i++){
+for(let i=0;i<3000;i++){
 	setTimeout(testWait,i*300);
 }
 
